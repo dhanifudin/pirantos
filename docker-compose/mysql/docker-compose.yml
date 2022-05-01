@@ -2,6 +2,7 @@ version: '3'
 
 services:
   mysql:
+    container_name: pirantos-mysql
     image: yobasystems/alpine-mariadb
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
